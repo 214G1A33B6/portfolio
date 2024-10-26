@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"  try to take the words somewhat down in the first section like  
     />
     <title>Portfolio Website</title>
     <link
@@ -22,7 +22,7 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
       <div class="container-fluid">
-        <a class="navbar-brand" id="logo" href="#">Portfolio.</a>
+        <a class="navbar-brand" id="logo" href="#">  Welcome to My Portfolio.</a>
         <button
           class="navbar-toggler icon-color"
           type="button"
@@ -40,6 +40,7 @@
               >Home
               <span class="sr-only">(current)</span></a
             >
+            <a class="nav-item nav-link text-white" href="#aboutSection">About Me</a>
             <a class="nav-item nav-link text-white" href="#skillsSection"
               >Skills</a
             >
@@ -65,14 +66,14 @@
       <div class="container">
         <div class="row">
           <div class="col-12 col-md-4 order-1 order-md-2">
-            <img src="pic.jpeg" class="img mb-3" />
+            <img src="pic.png" class="img mb-3" />
           </div>
           <div class="col-12 text order-2 order-md-1 col-md-8">
             <h1 class="title">Hi I'm <span class="name">VASUNDHARA</span></h1>
             <h1 class="heading">
-              <span class="name">W</span>EB <span class="name">D</span>ESIGNER
+              <span class="name">P</span>YTHON <span class="name">D</span>EVELOPER
             </h1>
-            <button class="button mt-3">Download CV</button>
+            <a href="https://drive.google.com/file/d/1B45rONGhNWjHleZeEnvQkEWhnOUa_kS3/view?usp=drive_link" download class="button mt-3">Download CV</a>
             <div class="d-flex flex-row mt-4">
               <div class="icon-container">
                 <i class="fab fa-twitter icon1"></i>
@@ -91,6 +92,25 @@
         </div>
       </div>
     </div>
+    <!-- About Me Section -->
+    <div class="about-section pt-5 pb-5" id="aboutSection">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-4 order-1">
+              <img src="pic.png" class="img mb-3" />
+            </div>
+            <div class="col-12 text order-2 col-md-8">
+              <h1 class="heading3">About Me</h1>
+              <p class="about-text">
+                Hello! I am Vasundhara, a passionate  software developer and AI/ML enthusiast  with a strong foundation in Python, SQL, and Java, dedicated to building robust applications and solving complex problems through innovative solutions.I have extensive experience in developing applications using Python, including web development with frameworks such as Django. I enjoy working on data analysis projects and automating tasks with scripts, leveraging libraries like Pandas and NumPy.My focus is on machine learning techniques, including supervised and unsupervised learning, natural language processing, and computer vision. I have worked on projects that apply these techniques to real-world problems, optimizing models for performance and accuracy.
+              </p>
+              <p class="about-text">
+                In addition to python, I continuously explore new technologies and frameworks to enhance my skills in this dynamic field. My goal is to contribute to innovative projects that leverage AI and machine learning to drive meaningful change and make a positive impact.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
 
     <div class="skills-section pt-5 pb-5" id="skillsSection">
       <div class="container">
@@ -100,32 +120,32 @@
           </div>
           <div class="col-6 col-md-3">
             <div class="shadow skills-card text-center mb-5 ml-4">
-              <img src="Python.png" class="skills-card-image pt-3" />
+              <img src="images/Python.png" class="skills-card-image pt-3" />
               <h1 class="skills-card-title pt-3 pb-3">PYTHON</h1>
             </div>
           </div>
 
           <div class="col-6 col-md-3">
             <div class="shadow skills-card text-center mb-5 ml-4">
-              <img src="java.png" class="skills-card-image pt-3" />
+              <img src="images/java.png" class="skills-card-image pt-3" />
               <h1 class="skills-card-title pt-3 pb-3">JAVA</h1>
             </div>
           </div>
           <div class="col-6 col-md-3">
             <div class="shadow skills-card text-center mb-5 ml-4">
-              <img src="p-html.png" class="skills-card-image pt-3" />
+              <img src="images/p-html.png" class="skills-card-image pt-3" />
               <h1 class="skills-card-title pt-3 pb-3">HTML</h1>
             </div>
           </div>
           <div class="col-6 col-md-3">
             <div class="shadow skills-card text-center md-5 ml-4">
-              <img src="p-css.png" class="skills-card-image pt-3" />
+              <img src="images/p-css.png" class="skills-card-image pt-3" />
               <h1 class="skills-card-title pt-3 pb-3">CSS</h1>
             </div>
           </div>
           <div class="col-6 col-md-3">
             <div class="shadow skills-card text-center mb-5 ml-4">
-              <img src="mysql-icon.png" class="skills-card-image pt-3" />
+              <img src="images/mysql-icon.png" class="skills-card-image pt-3" />
               <h1 class="skills-card-title pt-3 pb-3">SQL</h1>
             </div>
           </div>
@@ -134,126 +154,155 @@
     </div>
 
     <div class="projects-section pt-5 pb-5" id="projectsSection">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <h1 class="heading1 mb-5">Projects I have done</h1>
-          </div>
-
-          <div class="col-12 col-md-6">
-            <div class="card-container mb-3 ml-5">
-              <img src="login form(GUI).png" class="img3" />
-              <div class="p-3">
-                <p class="p">python(GUI)</p>
-                <h1 class="card-heading">LOGIN FORM</h1>
-                <p class="para">
-                    Creating a login form using Python's graphical user interface (GUI) frameworks, such as Tkinter, PyQt, or wxPython, involves designing a user interface where users can input their credentials (usually a username and password) to authenticate themselves
-                </p>
-                <a href="" class="projects-card-link">
-                  Read More
-                  <svg
-                    width="16px"
-                    height="16px"
-                    viewBox="0 0 16 16"
-                    class="bi bi-arrow-right-short"
-                    fill="#cced00"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-                    />
-                  </svg>
-                </a>
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h1 class="heading1 mb-5">Projects I have done</h1>
+            </div>
+      
+            <div class="col-12 col-md-4">
+              <div class="card-container mb-3">
+                <img src="images/login form (GUI) .png" class="card-img-top img-fluid" alt="LOGIN FORM">
+                <div class="card-body">
+                  <h5 class="card-title">LOGIN FORM</h5>
+                  <p class="card-text">
+                    Creating a login form using Python's graphical user interface (GUI) frameworks, such as Tkinter, PyQt, or wxPython.
+                  </p>
+                  <a href="https://github.com/214G1A33B6/login-form-.git" class="btn btn-primary">Read More</a>
+                </div>
               </div>
             </div>
-          </div>
-
-          <div class="col-12 col-md-6">
-            <div class="card-container mb-3 ml-5">
-              <img src="Breakout ball game.png" class="img3" />
-              <div class="p-3">
-                <p class="p">Web design</p>
-                <h1 class="card-heading">Breakout ball game</h1>
-                <p class="para">
-                    Creating a breakout ball game in Python is a rewarding project that covers fundamental concepts of game development, including physics simulation, collision detection, and user interface design. It's a great way to practice Python programming skills while having fun building a playable game.
-                </p>
-                <a href="" class="projects-card-link">
-                  Read More
-                  <svg
-                    width="16px"
-                    height="16px"
-                    viewBox="0 0 16 16"
-                    class="bi bi-arrow-right-short"
-                    fill="#cced00"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
-                    />
-                  </svg>
-                </a>
+      
+            <div class="col-12 col-md-4">
+              <div class="card-container mb-3">
+                <img src="images/Breakout ball game.png" class="card-img-top img-fluid" alt="Breakout ball game">
+                <div class="card-body">
+                  <h5 class="card-title">Breakout ball game</h5>
+                  <p class="card-text">
+                    Creating a breakout ball game in Python is a rewarding project that covers fundamental concepts of game development.
+                  </p>
+                  <a href="https://github.com/214G1A33B6/breakout-ball-.git" class="btn btn-primary">Read More</a>
+                </div>
+              </div>
+            </div>
+      
+            <div class="col-12 col-md-4">
+              <div class="card-container mb-3">
+                <img src="images/Talking dictionary .png" class="card-img-top img-fluid" alt="Talking Dictionary">
+                <div class="card-body">
+                  <h5 class="card-title">Talking Dictionary</h5>
+                  <p class="card-text">
+                    it is a Python-based application that provides definitions of words and reads them aloud using text-to-speech technology.
+                  </p>
+                  <a href="https://github.com/214G1A33B6/talking-dictionary.git" class="btn btn-primary">Read More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-4">
+              <div class="card-container mb-3">
+                <img src="images/Screenshot (505).png" class="card-img-top img-fluid" alt="LOGIN FORM">
+                <div class="card-body">
+                  <h5 class="card-title">Hungman</h5>
+                  <p class="card-text">
+                    The Hangman game is a classic word guessing game implemented in Python. Players try to guess a hidden word by suggesting letters within a limited number of incorrect guesses.
+                  </p>
+                  <a href="https://github.com/214G1A33B6/hungman.git" class="btn btn-primary">Read More</a>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-
-    <div class="certifications-section pt-5 pb-5" id="certificationsSection">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <h1 class="heading3 mb-5">Certifications</h1>
-          </div>
-
-          <div class="col-12 col-md-6">
-            <div class="certifications-card shadow text-center mb-4 ml-5">
-              <img src="Mind Luster.png" class="certifications-card-image pt-3" />
-              <h1 class="certifications-card-title pt-3 pb-3">Mind Luster</h1>
+      
+      
+      <div class="certifications-section pt-5 pb-5" id="certificationsSection">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h1 class="heading1 mb-5">Certifications</h1>
             </div>
-          </div>
-
-          <div class="col-12 col-md-6">
-            <div class="certifications-card shadow text-center mb-4 ml-5">
-              <img src="CCNA.png" class="certifications-card-image pt-3" />
-              <h1 class="certifications-card-title pt-3 pb-3">CCNA</h1>
+      
+            <div class="col-12 col-md-4">
+              <div class="card-container mb-3">
+                <img src="images/Mind Luster.png" class="card-img-top img-fluid" alt="Mind Luster">
+                <div class="card-body">
+                  <h5 class="card-title">Mind Luster</h5>
+                  <!-- Description can be added here if needed -->
+                  <a href="https://drive.google.com/file/d/1nH1lOcHSSISLgfILKBD3QQEwss5vFd-5/view?usp=drive_link" target="_blank" class="btn btn-primary">View Certificate</a>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="col-12 col-md-6">
-            <div class="certifications-card shadow text-center mb-4 ml-5">
-              <img src="Red Cross.png" class="certifications-card-image pt-3" />
-              <h1 class="certifications-card-title pt-3 pb-3">Red Cross</h1>
+      
+            <div class="col-12 col-md-4">
+              <div class="card-container mb-3">
+                <img src="images/CCNA.png" class="card-img-top img-fluid" alt="CCNA">
+                <div class="card-body">
+                  <h5 class="card-title">CCNA</h5>
+                  <!-- Description can be added here if needed -->
+                  <a href="https://drive.google.com/file/d/1hjHbA1K6nlbuDJSbbHtYdwb2U6C7zzVs/view?usp=drive_link" target="_blank" class="btn btn-primary">View Certificate</a>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="col-12 col-md-6">
-            <div class="certifications-card shadow text-center mb-4 ml-5">
-              <img src="Salesforce.png" class="certifications-card-image pt-3" />
-              <h1 class="certifications-card-title pt-3 pb-3">Smart Internz</h1>
+      
+            <div class="col-12 col-md-4">
+              <div class="card-container mb-3">
+                <img src="images/Red Cross.png" class="card-img-top img-fluid" alt="Red Cross">
+                <div class="card-body">
+                  <h5 class="card-title">Red Cross</h5>
+                  <!-- Description can be added here if needed -->
+                  <a href="https://drive.google.com/file/d/1Ax-VfZNeiGPmCcFepFto7Wgc5wAchG46/view?usp=drive_link" target="_blank" class="btn btn-primary">View Certificate</a>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="col-12 col-md-6">
-            <div class="certifications-card shadow text-center mb-4 ml-5">
-              <img src="Wadhwani.png" class="certifications-card-image pt-3" />
-              <h1 class="certifications-card-title pt-3 pb-3">Wadhwani</h1>
+      
+            <div class="col-12 col-md-4">
+              <div class="card-container mb-3">
+                <img src="images/Salesforce.png" class="card-img-top img-fluid" alt="Smart Internz">
+                <div class="card-body">
+                  <h5 class="card-title">Smart Internz</h5>
+                  <!-- Description can be added here if needed -->
+                  <a href="https://drive.google.com/file/d/18yUYgl-ks2o8TjIR4eeKBEIbMJRe1Xxi/view?usp=drive_link" target="_blank" class="btn btn-primary">View Certificate</a>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="col-12 col-md-6">
-            <div class="certifications-card shadow text-center mb-4 ml-5">
-              <img src="Mongo DB.png" class="certifications-card-image pt-3" />
-              <h1 class="certifications-card-title pt-3 pb-3">Mongo DB</h1>
+      
+            <div class="col-12 col-md-4">
+              <div class="card-container mb-3">
+                <img src="images/Wadhwani.png" class="card-img-top img-fluid" alt="Wadhwani">
+                <div class="card-body">
+                  <h5 class="card-title">Wadhwani</h5>
+                  <!-- Description can be added here if needed -->
+                  <a href="https://drive.google.com/file/d/1Hcj3w2-KeC8omJAV8ty3824zIDZgVs__/view?usp=drive_link" target="_blank" class="btn btn-primary">View Certificate</a>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="col-12 col-md-6">
-            <div class="certifications-card shadow text-center mb-4 ml-5">
-              <img src="AICTE.png" class="certifications-card-image pt-3" />
-              <h1 class="certifications-card-title pt-3 pb-3">AICTE</h1>
+      
+            <div class="col-12 col-md-4">
+              <div class="card-container mb-3">
+                <img src="images/Mongo DB.png" class="card-img-top img-fluid" alt="Mongo DB">
+                <div class="card-body">
+                  <h5 class="card-title">Mongo DB</h5>
+                  <!-- Description can be added here if needed -->
+                  <a href="https://drive.google.com/file/d/1fM3absj1H_c1cKjl0XvEdfRZZ4dPZqor/view?usp=drive_link" target="_blank" class="btn btn-primary">View Certificate</a>
+                </div>
+              </div>
             </div>
+      
+            <div class="col-12 col-md-4">
+              <div class="card-container mb-3">
+                <img src="images/AICTE.png" class="card-img-top img-fluid" alt="AICTE">
+                <div class="card-body">
+                  <h5 class="card-title">AICTE</h5>
+                  <!-- Description can be added here if needed -->
+                  <a href="https://drive.google.com/file/d/1hdCUseg0KP6ztyGBXQyHNaEIhvhRBlir/view?usp=drive_link" target="_blank" class="btn btn-primary">View Certificate</a>
+                </div>
+              </div>
+            </div>
+      
           </div>
         </div>
       </div>
-    </div>
+      
 
     <div class="contact-section pt-5 pb-5" id="contactSection">
       <div class="container">
@@ -311,8 +360,8 @@
 
     <footer class="text-center pt-3 pb-3">
       <p class="footer">
-        &copy; 2023 All rights reserved | This template is made with
-        <i class="fas fa-heart"></i> by Meera
+        &copy; 2024 All rights reserved | This template is made with
+        <i class="fas fa-heart"></i> by Vasu
       </p>
     </footer>
 
@@ -320,4 +369,4 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </body>
-</html>
+</html>    
