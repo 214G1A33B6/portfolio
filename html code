@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <title>Portfolio Website</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="port.css" />
+    <script
+      src="https://kit.fontawesome.com/ac42c3b1f7.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" id="logo" href="#">  Welcome to My Portfolio.</a>
+        <button
+          class="navbar-toggler icon-color"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-item nav-link active text-white" href="#homesection"
+              >Home
+              <span class="sr-only">(current)</span></a
+            >
+            <a class="nav-item nav-link text-white" href="#aboutSection">About Me</a>
+            <a class="nav-item nav-link text-white" href="#skillsSection"
+              >Skills</a
+            >
+            <a class="nav-item nav-link text-white" href="#projectsSection"
+              >Projects</a
+            >
+            <a class="nav-item nav-link text-white" href="#certificationsSection"
+              >Certifications</a
+            >
+            <a class="nav-item nav-link text-white" href="#contactSection"
+              >Contact</a
+            >
+            <a href="#" class="btn">Hire Me</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div
+      class="homesection d-flex flex-column justify-content-center pl-5"
+      id="homesection"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-4 order-1 order-md-2">
+            <img src="pic.png" class="img mb-3" />
+          </div>
+          <div class="col-12 text order-2 order-md-1 col-md-8">
+            <h1 class="title">Hi I'm <span class="name">VASUNDHARA</span></h1>
+            <h1 class="heading">
+              <span class="name">P</span>YTHON <span class="name">D</span>EVELOPER
+            </h1>
+            <a href="https://drive.google.com/file/d/1B45rONGhNWjHleZeEnvQkEWhnOUa_kS3/view?usp=drive_link" download class="button mt-3">Download CV</a>
+            <div class="d-flex flex-row mt-4">
+              <div class="icon-container">
+                <i class="fab fa-twitter icon1"></i>
+              </div>
+              <div class="icon-container">
+                <i class="fab fa-instagram icon1"></i>
+              </div>
+              <div class="icon-container">
+                <i class="fab fa-facebook icon1"></i>
+              </div>
+              <div class="icon-container">
+                <i class="fab fa-linkedin icon1"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- About Me Section -->
+    <div class="about-section pt-5 pb-5" id="aboutSection">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-4 order-1">
+              <img src="pic.png" class="img mb-3" />
+            </div>
+            <div class="col-12 text order-2 col-md-8">
+              <h1 class="heading3">About Me</h1>
+              <p class="about-text">
+                Hello! I am Vasundhara, a passionate  software developer and AI/ML enthusiast  with a strong foundation in Python, SQL, and Java, dedicated to building robust applications and solving complex problems through innovative solutions.I have extensive experience in developing applications using Python, including web development with frameworks such as Django. I enjoy working on data analysis projects and automating tasks with scripts, leveraging libraries like Pandas and NumPy.My focus is on machine learning techniques, including supervised and unsupervised learning, natural language processing, and computer vision. I have worked on projects that apply these techniques to real-world problems, optimizing models for performance and accuracy.
+              </p>
+              <p class="about-text">
+                In addition to python, I continuously explore new technologies and frameworks to enhance my skills in this dynamic field. My goal is to contribute to innovative projects that leverage AI and machine learning to drive meaningful change and make a positive impact.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    <div class="skills-section pt-5 pb-5" id="skillsSection">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="heading3">Skills :</h1>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="shadow skills-card text-center mb-5 ml-4">
+              <img src="images/Python.png" class="skills-card-image pt-3" />
+              <h1 class="skills-card-title pt-3 pb-3">PYTHON</h1>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-3">
+            <div class="shadow skills-card text-center mb-5 ml-4">
+              <img src="images/java.png" class="skills-card-image pt-3" />
+              <h1 class="skills-card-title pt-3 pb-3">JAVA</h1>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="shadow skills-card text-center mb-5 ml-4">
+              <img src="images/p-html.png" class="skills-card-image pt-3" />
+              <h1 class="skills-card-title pt-3 pb-3">HTML</h1>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="shadow skills-card text-center md-5 ml-4">
+              <img src="images/p-css.png" class="skills-card-image pt-3" />
+              <h1 class="skills-card-title pt-3 pb-3">CSS</h1>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="shadow skills-card text-center mb-5 ml-4">
+              <img src="images/mysql-icon.png" class="skills-card-image pt-3" />
+              <h1 class="skills-card-title pt-3 pb-3">SQL</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="projects-section pt-5 pb-5" id="projectsSection">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h1 class="heading1 mb-5">Projects I have done</h1>
+            </div>
+      
+            <div class="col-12 col-md-4">
+              <div class="card-container mb-3">
+                <img src="images/login form (GUI) .png" class="card-img-top img-fluid" alt="LOGIN FORM">
+                <div class="card-body">
+                  <h5 class="card-title">LOGIN FORM</h5>
+                  <p class="card-text">
+                    Creating a login form using Python's graphical user interface (GUI) frameworks, such as Tkinter, PyQt, or wxPython.
+                  </p>
+                  <a href="https://github.com/214G1A33B6/login-form-.git" class="btn btn-primary">Read More</a>
+                </div>
+              </div>
+            </div>
+      
+            <div class="col-12 col-md-4">
+              <div class="card-container mb-3">
+                <img src="images/Breakout ball game.png" class="card-img-top img-fluid" alt="Breakout ball game">
+                <div class="card-body">
+                  <h5 class="card-title">Breakout ball game</h5>
+                  <p class="card-text">
+                    Creating a breakout ball game in Python is a rewarding project that covers fundamental concepts of game development.
+                  </p>
+                  <a href="https://github.com/214G1A33B6/breakout-ball-.git" class="btn btn-primary">Read More</a>
+                </div>
+              </div>
+            </div>
+      
+            <div class="col-12 col-md-4">
+              <div class="card-container mb-3">
+                <img src="images/Talking dictionary .png" class="card-img-top img-fluid" alt="Talking Dictionary">
+                <div class="card-body">
+                  <h5 class="card-title">Talking Dictionary</h5>
+                  <p class="card-text">
+                    it is a Python-based application that provides definitions of words and reads them aloud using text-to-speech technology.
+                  </p>
+                  <a href="https://github.com/214G1A33B6/talking-dictionary.git" class="btn btn-primary">Read More</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-4">
+              <div class="card-container mb-3">
+                <img src="images/Screenshot (505).png" class="card-img-top img-fluid" alt="LOGIN FORM">
+                <div class="card-body">
+                  <h5 class="card-title">Hungman</h5>
+                  <p class="card-text">
+                    The Hangman game is a classic word guessing game implemented in Python. Players try to guess a hidden word by suggesting letters within a limited number of incorrect guesses.
+                  </p>
+                  <a href="https://github.com/214G1A33B6/hungman.git" class="btn btn-primary">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      <div class="certifications-section pt-5 pb-5" id="certificationsSection">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h1 class="heading1 mb-5">Certifications</h1>
+            </div>
+      
+            <div class="col-12 col-md-4">
+              <div class="card-container mb-3">
+                <img src="images/Mind Luster.png" class="card-img-top img-fluid" alt="Mind Luster">
+                <div class="card-body">
+                  <h5 class="card-title">Mind Luster</h5>
+                  <!-- Description can be added here if needed -->
+                  <a href="https://drive.google.com/file/d/1nH1lOcHSSISLgfILKBD3QQEwss5vFd-5/view?usp=drive_link" target="_blank" class="btn btn-primary">View Certificate</a>
+                </div>
+              </div>
+            </div>
+      
+            <div class="col-12 col-md-4">
+              <div class="card-container mb-3">
+                <img src="images/CCNA.png" class="card-img-top img-fluid" alt="CCNA">
+                <div class="card-body">
+                  <h5 class="card-title">CCNA</h5>
+                  <!-- Description can be added here if needed -->
+                  <a href="https://drive.google.com/file/d/1hjHbA1K6nlbuDJSbbHtYdwb2U6C7zzVs/view?usp=drive_link" target="_blank" class="btn btn-primary">View Certificate</a>
+                </div>
+              </div>
+            </div>
+      
+            <div class="col-12 col-md-4">
+              <div class="card-container mb-3">
+                <img src="images/Red Cross.png" class="card-img-top img-fluid" alt="Red Cross">
+                <div class="card-body">
+                  <h5 class="card-title">Red Cross</h5>
+                  <!-- Description can be added here if needed -->
+                  <a href="https://drive.google.com/file/d/1Ax-VfZNeiGPmCcFepFto7Wgc5wAchG46/view?usp=drive_link" target="_blank" class="btn btn-primary">View Certificate</a>
+                </div>
+              </div>
+            </div>
+      
+            <div class="col-12 col-md-4">
+              <div class="card-container mb-3">
+                <img src="images/Salesforce.png" class="card-img-top img-fluid" alt="Smart Internz">
+                <div class="card-body">
+                  <h5 class="card-title">Smart Internz</h5>
+                  <!-- Description can be added here if needed -->
+                  <a href="https://drive.google.com/file/d/18yUYgl-ks2o8TjIR4eeKBEIbMJRe1Xxi/view?usp=drive_link" target="_blank" class="btn btn-primary">View Certificate</a>
+                </div>
+              </div>
+            </div>
+      
+            <div class="col-12 col-md-4">
+              <div class="card-container mb-3">
+                <img src="images/Wadhwani.png" class="card-img-top img-fluid" alt="Wadhwani">
+                <div class="card-body">
+                  <h5 class="card-title">Wadhwani</h5>
+                  <!-- Description can be added here if needed -->
+                  <a href="https://drive.google.com/file/d/1Hcj3w2-KeC8omJAV8ty3824zIDZgVs__/view?usp=drive_link" target="_blank" class="btn btn-primary">View Certificate</a>
+                </div>
+              </div>
+            </div>
+      
+            <div class="col-12 col-md-4">
+              <div class="card-container mb-3">
+                <img src="images/Mongo DB.png" class="card-img-top img-fluid" alt="Mongo DB">
+                <div class="card-body">
+                  <h5 class="card-title">Mongo DB</h5>
+                  <!-- Description can be added here if needed -->
+                  <a href="https://drive.google.com/file/d/1fM3absj1H_c1cKjl0XvEdfRZZ4dPZqor/view?usp=drive_link" target="_blank" class="btn btn-primary">View Certificate</a>
+                </div>
+              </div>
+            </div>
+      
+            <div class="col-12 col-md-4">
+              <div class="card-container mb-3">
+                <img src="images/AICTE.png" class="card-img-top img-fluid" alt="AICTE">
+                <div class="card-body">
+                  <h5 class="card-title">AICTE</h5>
+                  <!-- Description can be added here if needed -->
+                  <a href="https://drive.google.com/file/d/1hdCUseg0KP6ztyGBXQyHNaEIhvhRBlir/view?usp=drive_link" target="_blank" class="btn btn-primary">View Certificate</a>
+                </div>
+              </div>
+            </div>
+      
+          </div>
+        </div>
+      </div>
+      
+
+    <div class="contact-section pt-5 pb-5" id="contactSection">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="heading3 mb-5">Contact Me</h1>
+          </div>
+          <div class="col-12 col-md-6 mb-5">
+            <h1 class="heading3">Get in Touch</h1>
+            <form>
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="Enter your name"
+                />
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlInput2">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleFormControlInput2"
+                  placeholder="Enter your email"
+                />
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">Message</label>
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  rows="3"
+                  placeholder="Enter your message"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn">Submit</button>
+            </form>
+          </div>
+          <div class="col-12 col-md-6">
+            <h1 class="heading3">Contact Information</h1>
+            <p class="para">Email: 214g1a33b6@srit.ac.in</p>
+            <p class="para">Phone: 7396447328</p>
+            <p class="para">Address: Vidhyuth Nagar,Anantapur</p>
+            <div class="d-flex flex-row mt-4">
+              <div class="icon-container">
+                <i class="fab fa-linkedin icon1"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="text-center pt-3 pb-3">
+      <p class="footer">
+        &copy; 2024 All rights reserved | This template is made with
+        <i class="fas fa-heart"></i> by Vasu
+      </p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
